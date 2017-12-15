@@ -37,33 +37,95 @@ public class RiskGame implements Serializable { // transient
 	 * these are a costant 
 	 */
 	public final static String SAVE_VERSION = String.valueOf(serialVersionUID);
-
+	/**
+	 * costant String Version Network
+	 */
 	public final static String NETWORK_VERSION = "12";
-
+	/**
+	 * costant Max Players of Integer Types
+	 */
 	public final static int MAX_PLAYERS = 6;
+	/**
+	 * costant about Type Continent
+	 */
 	public final static Continent ANY_CONTINENT = new Continent("any","any", 0, 0);
-
+	
+	/**
+	 * Costant int State New Game integer Type Level 0
+	 */
 	public final static int STATE_NEW_GAME        = 0;
+	/**
+	 * Costant int State Trade Card integer Type Level 1
+	 */
 	public final static int STATE_TRADE_CARDS     = 1;
+	/**
+	 * Costant int State Place about Armies integer Type Level 1
+	 */
 	public final static int STATE_PLACE_ARMIES    = 2;
+	
+	/**
+	 * Costant int State Attacking integer Type Level 3
+	 */
 	public final static int STATE_ATTACKING       = 3;
+	/**
+	 * Costant int State State Rolling Type Level 4
+	 */
 	public final static int STATE_ROLLING         = 4;
+	/**
+	 * Costant int State Battle Type Level 5
+	 */
 	public final static int STATE_BATTLE_WON      = 5;
+	/**
+	 * Costant int State Fortifyng Type Level 6
+	 */
 	public final static int STATE_FORTIFYING      = 6;
+	/**
+	 * Costant int State about and Turn 7
+	 */
 	public final static int STATE_END_TURN        = 7;
+	/**
+	 * Costant int State the End (Game Over) Type Level 8
+	 */
 	public final static int STATE_GAME_OVER       = 8;
+	/**
+	 * Costant int Selection Type Level 9
+	 */
 	public final static int STATE_SELECT_CAPITAL  = 9;
+	/**
+	 * Costant int Defend youself Type Level 10
+	 */
 	public final static int STATE_DEFEND_YOURSELF = 10;
-
+	
+	/**
+	 * Costant int State Modality Domination Type Level 0
+	 */
 
 	public final static int MODE_DOMINATION     = 0;
-	public final static int MODE_CAPITAL        = 2;
+	/**
+	 * Costant int State Mode Capital Type Level 1
+	 */
+	public final static int MODE_CAPITAL        = 1;
+	/**
+	 * Costant int State Mode Secret Mission Type Level 3
+	 */
 	public final static int MODE_SECRET_MISSION = 3;
-
+	/**
+	 * Costant int State Increase Card Type Level 0
+	 */
 
 	public final static int CARD_INCREASING_SET = 0;
+	/**
+	 * Costant int State Card Fixed Type Level 1
+	 */
 	public final static int CARD_FIXED_SET = 1;
+	/**
+	 * Costant int State Card Italian Like Type Level 2
+	 */
 	public final static int CARD_ITALIANLIKE_SET = 2;
+	
+	/**
+	 * Costant int State MAXCARD Type Level 5
+	 */
 
         public final static int MAX_CARDS = 5;
 

@@ -57,7 +57,13 @@ public class MapChooser implements ActionListener,MapServerListener {
 	 * these are a Costant Server Url, Map Page and Categories
 	 */
     public static final String SERVER_URL="http://maps.yura.net/";
+    /**
+     * a costant about String Map Page Server Url
+     */
     public static final String MAP_PAGE=SERVER_URL+"maps?format=xml&version="+Url.encode( RiskUtil.RISK_VERSION );
+    /**
+     * a costant about String Categories Page
+     */
     public static final String CATEGORIES_PAGE=SERVER_URL+"categories?format=xml&version="+Url.encode( RiskUtil.RISK_VERSION );
 
 

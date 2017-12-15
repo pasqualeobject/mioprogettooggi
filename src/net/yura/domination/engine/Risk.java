@@ -89,7 +89,13 @@ public class Risk extends Thread {
      * these are a three types of Level Array's String
      */
     public static final String[] types = new String[] { "human","ai easy","ai easy","ai easy","ai average","ai average" };
+    /**
+     * Array of String about player
+     */
     public static final String[] names = new String[] { "player","bob","fred","ted","yura","lala"};
+    /**
+     * Array of String about colors
+     */
     public static final String[] colors = new String[] { "cyan","green","magenta","red","blue","yellow"};
 
     public Risk() {

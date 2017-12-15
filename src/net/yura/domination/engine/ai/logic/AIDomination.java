@@ -37,7 +37,13 @@ public class AIDomination extends AISubmissive {
 	 * these are the Costant of Level
 	 */
 	public static final int PLAYER_AI_AVERAGE = 4;
+	/**
+	 * costant about player AI HARD
+	 */
 	public final static int PLAYER_AI_HARD = 2;
+	/**
+	 * Player ai Easy
+	 */
 	public final static int PLAYER_AI_EASY = 1;
 
     protected final int type;
